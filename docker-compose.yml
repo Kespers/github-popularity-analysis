@@ -1,0 +1,14 @@
+services:
+  github-popularity-analysis:
+    image: github-popularity-analysis
+    container_name: github-popularity-analysis
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+        - 8888:8888
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: jupyter notebook --NotebookApp.token='' --allow-root --ip=0.0.0.0 --port=8888
