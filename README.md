@@ -1,9 +1,11 @@
 ![chart summary](./images/summary.jpg)
 
 # GitHub Popularity Analysis
-Analysis of the popularity of a GitHub repository. Through scraping data from [Trendshift](https://trendshift.io), we will gather the top 1000 GitHub repositories and extract a series of KPIs to create charts that will help us understand how these repositories became trending.
+Analysis of the popularity of a GitHub repository.
 
-This repository is part of the [Social Media Data Analysis](https://web.dmi.unict.it/corsi/l-31/insegnamenti?seuid=9C81E641-77C4-41AE-AD81-AB477BFA24AE) exam, where the task is to create a tutorial on a public API and conduct a statistical investigation on the data provided.
+By scraping data from [Trendshift](https://trendshift.io), we will get the top 1000 GitHub repositories and extract a series of KPIs to create charts that will help us understand how these repositories became trending.
+
+This project is part of the [Social Media Data Analysis](https://web.dmi.unict.it/corsi/l-31/insegnamenti?seuid=9C81E641-77C4-41AE-AD81-AB477BFA24AE) exam, where the task is to create a tutorial on a public API and conduct a statistical investigation on the data provided.
 
 In this notebook, we will first provide an introduction to GitHub APIs and then proceed with the analysis of repository popularity.
 
